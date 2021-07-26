@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: yellow;
+  --secondary: black;
+}
+body {
+  font-family: "Poppins";
+}
+
+.navbar {
+  background: var(--primary);
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--secondary);
+  font-size: 2rem;
+}
