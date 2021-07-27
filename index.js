@@ -18,6 +18,6 @@ function translate() {
       translation.innerText = data.contents.translated;
     })
     .catch((error) => {
-      alert(error);
+      alert("Oops! An Error occured. Please try again in a few minutes");
     });
 }
